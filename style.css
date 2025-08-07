@@ -34,14 +34,13 @@ a:active {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 0;
-  width: 70%;
   position: fixed;
   top: 0;
   padding: 2rem 0 0 0;
-  width: 100vh;
+  width: 100%;
 }
 
 #titleHeader {
@@ -106,12 +105,20 @@ main {
 }
 
 @media screen and (min-width: 800px) {
-  #menu {
+  .mobileLinksHeader {
+    display: none;
+  }
+  
+  .mobileMenu {
     display: none;
   }
 }
 
 @media screen and (max-width: 800px) {
+  header {
+    width: 90%;
+  }
+
   #titleHeader {
     width: 13rem;
   }
