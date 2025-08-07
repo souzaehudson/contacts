@@ -158,7 +158,7 @@ main {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(87, 83, 83, 0.74);
+  background-image: url("https://i.imgur.com/Lpjeb84.jpeg");
   height: 100vh;
   width: 20%;
 }
