@@ -67,6 +67,7 @@ header {
 
 main {
   display: flex;
+  padding: 0 0 3rem 0;
 }
 
 .contacts {
@@ -75,7 +76,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 8rem;
+  margin-top: 1rem;
 }
 
 .contacts > div {
