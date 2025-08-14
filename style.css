@@ -114,6 +114,10 @@ main {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    margin: 0 2rem;
+  }
+  
   #titleHeader {
     width: 13rem;
   }
