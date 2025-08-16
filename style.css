@@ -66,8 +66,8 @@ header {
 
 main {
   display: flex;
-  padding: 0 0 3rem 0;
-  margin-top: 2rem;
+  padding: 0 0 2rem 0;
+  margin-top: 1rem;
 }
 
 .contacts {
