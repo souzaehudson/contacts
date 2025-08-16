@@ -2,7 +2,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   background-image: url("https://i.imgur.com/Lpjeb84.jpeg");
   background-size: cover;
   background-attachment: fixed;
@@ -68,6 +67,7 @@ header {
 main {
   display: flex;
   padding: 0 0 3rem 0;
+  margin-top: 2rem;
 }
 
 .contacts {
